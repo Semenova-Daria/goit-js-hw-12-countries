@@ -6,12 +6,7 @@
   "homepage": "https://semenova-daria.github.io/goit-js-hw-12-countries",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build",
-    "commit": "git commit -m",
-    "precommit": "git add .",
-    "postcommit": "git push"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/"
   },
   "repository": {
     "type": "git",
@@ -31,6 +26,7 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3"
+    "lodash.debounce": "^4.0.8",
+    "pnotify": "^5.2.0"
   }
 }
