@@ -2,13 +2,15 @@
   background: rgb(141, 216, 145);
 }
 
-.title {
+.title-page {
   display: flex;
   justify-content: center;
   color: rgb(240, 240, 233);
   padding-top: 50px;
   height: 70px;
 }
+
+/* a */
 
 .js-search-form {
   display: flex;
@@ -33,6 +35,7 @@
 .country_info__item {
   margin-left: 40px;
   margin-right: 40px;
+  list-style: none;
 }
 
 .js-country-list__item {
